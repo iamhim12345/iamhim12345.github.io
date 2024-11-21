@@ -4,9 +4,189 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vamsi Krishna</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        .container{
+            background-color: white;
+        }
+        .row {
+            background-color: pink;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+        }
+        .box{
+            /* background-color: silver; */
+            padding: 10px;
+        }
+        .row1 {
+            
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding :20px;
+            height : 600px;
+        }
+        .row2{
+            display: flex;
+            justify-content: space-around;
+            background-color: lightblue;
+            
+            align-items: center;
+            padding :40px;
+            height : 800px;
+        }
+        .row3{
+            
+            /* justify-content: space-around; */
+            background-color: silver;
+            text-align: center;
+            align-items: center;
+            display: flex;
+            padding :40px;
+            height : 600px;
+            justify-items: flex;
+        }
+        .row4{
+            text-align: center;
+            background-color: black;
+            color: white;
+            bottom: 0px;
+            
+
+        }
+        
+
+        .center{
+            align-items:center ;
+        }
+        .box1{
+            padding:10px;
+            background-color: white;
+            color: black;
+            margin:10px;
+            border-radius: 10px;
+        }
+        li{
+            display: inline;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            background-color: yellow;
+            font-style: italic;
+            font-weight: bold;
+        }
+        .imgclass{
+            border-radius: 600px;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Vamsi Krishna</h1>
+    <div class = "container">
+        <div class= "row">
+            <div class = "box"><h1>Vamsi</h1></div>
+                <div class = "box">
+                    <ul>
+                        <li><a href="#home">Home</a></li> 
+                        <li><a href = "#projects">Project</a></li> 
+                        <li><a href = "#service">Services</a></li> 
+                        <li><a href= "#about">About</a></li>
+                    </ul>
+                </div>
+                </div>
+        <div class ="row1" id = "home">
+            <div><h1> Vamsi</h1><h3>Full Stack Developer</h3></div>
+                
+                
+            <div ><img src= "https://picsum.photos/id/100/250/333"> </div>
+        </div>
+        <div class ="row2" id = "projects">
+            <div><h1>Projects</h1>
+                <ol>
+                    <li>Project 1</li>
+                    <li>Project 2</li>
+                </ol>
+            </div>
+                
+                
+            
+        </div>
+
+        <div class = "row3" id = "about">
+            <div id = "center">
+            <h4 class="row3">This is about me
+                My skills are the following
+                <ol>
+                    <li>C <img class= "imgclass" src="asset\q.png" ></li>
+                    <li>C++</li>
+                    <li>Python</li>
+                </ol>
+            </h4>
+            </div>
+            <div>
+
+                <h4>Name:Vamsi</h4>
+                <br>
+                <h4>Contact : 9704288115</h4>
+            </div>
+        
+                
+           
+
+
+        </div>
+        
+        <div class = "row2" id = "service">
+            <!-- <h1>Services</h1> -->
+            <div class = "box1">
+                <h3>Web App Development</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis, mollitia sapiente perferendis repellat voluptates cupiditate qui illum eius, 
+                    soluta sed voluptate id itaque magnam odit nihil iure, perspiciatis eos asperiores!
+                </p>
+            </div>
+            <div class = "box1">
+                <h3>Backend Dev</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis, mollitia sapiente perferendis repellat voluptates cupiditate qui illum eius, 
+                    soluta sed voluptate id itaque magnam odit nihil iure, perspiciatis eos asperiores!
+                </p>
+
+            </div>
+            <div class = "box1">
+                <h3>Mobile App Dev</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Omnis, mollitia sapiente perferendis repellat voluptates cupiditate qui illum eius, 
+                    soluta sed voluptate id itaque magnam odit nihil iure, perspiciatis eos asperiores!
+                </p>
+            </div>
+
+        </div>
+        <div class = "row4">
+
+            <h4>@copyright2024. All rights reserved</h4>
+        </div>
+                
+    </div>
+    
+        
+    
+                
+    
+
+
+    
+       
+    </body>
+    <!-- <h1>Vamsi Krishna</h1>
     <hr>
     <a href="about.html">About</a>
     <a href = "project.html">project</a>
@@ -17,6 +197,6 @@
     
     <img src = https://picsum.photos/id/1/250/333>
 
-    <h4>@copyright2024. All rights reserved</h4>
+    <h4>@copyright2024. All rights reserved</h4> -->
 </body>
 </html>
